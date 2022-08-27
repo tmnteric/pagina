@@ -1,0 +1,1 @@
+Se agregó lombok al proyecto para facilitar la creacioón de entidades
