@@ -24,7 +24,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
                     <h1 class="text-center">Registro de producto</h1>
                     <div class="card-body">
-                        <form th:action="@{7guardar}" th:object="${producto}" method="post">
+                        <form th:action="@{/guardar}" th:object="${producto}" method="post">
                             <div class="form-group">
                                 <label>nombre:</label>
                                 <input type="text" name="nombre" th:field="*{nombre}" class="form-control" placeholder="Digite el nombre del producto" required>
